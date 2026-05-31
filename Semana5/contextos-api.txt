@@ -1,0 +1,2 @@
+la ruta app.post('/reporte') recibe la información que fue enviada por el usuario por medio de una petición POST, en este caso toma el valor de mensaje que se encunetra en la solicitud y devuelve en respuesta el formato JSON indicando que el reporte fue recibido por medio de un mensaje
+Claro que si serviria en una comunidad comunitaria ya que si los ciudadanos reportan incidentes, sugerencias o requieren atención, esto permite que se facilite la comunicación, promoviendo una participación activa 
