@@ -3,6 +3,12 @@ const app = express();
 
 app.use(express.json());
 
+// Ruta principal para verificar que el servidor funciona
+app.get('/', (req, res) => {
+  res.send('Servidor funcionando correctamente');
+});
+
+// Ruta para registrar datos enviados por el usuario
 app.post('/registro', (req, res) => {
 
   const nombre = req.body.nombre;
@@ -16,6 +22,7 @@ app.post('/registro', (req, res) => {
 
 });
 
+// Ruta para registrar incidencias reportadas por la comunidad
 app.post('/incidencia', (req, res) => {
 
   const tipo = req.body.tipo;
